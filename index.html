@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia Verdadeira e Notícia Falsa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .verdadeira {
+            border-left: 8px solid #28a745;
+        }
+
+        .falsa {
+            border-left: 8px solid #dc3545;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .verdadeira h2 {
+            color: #28a745;
+        }
+
+        .falsa h2 {
+            color: #dc3545;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .aviso {
+            font-weight: bold;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card verdadeira">
+        <h2>🟢 Notícia Verdadeira</h2>
+        <p>
+            Em 2022, a NASA concluiu com sucesso a missão DART (Double Asteroid Redirection Test),
+            que alterou a órbita do asteroide Dimorphos ao colidir intencionalmente uma espaçonave
+            contra ele. Foi a primeira demonstração bem-sucedida de uma tecnologia de defesa planetária.
+        </p>
+    </div>
+
+    <div class="card falsa">
+        <h2>🔴 Notícia Falsa</h2>
+        <p>
+            Cientistas descobriram uma ilha flutuante no Oceano Atlântico habitada por dinossauros vivos,
+            e governos do mundo decidiram manter a descoberta em segredo.
+        </p>
+
+        <p class="aviso">
+            ⚠️ Esta notícia é fictícia e foi criada apenas como exemplo de uma notícia falsa.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
